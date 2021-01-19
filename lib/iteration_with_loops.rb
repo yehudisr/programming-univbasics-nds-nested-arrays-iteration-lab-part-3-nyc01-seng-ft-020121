@@ -11,7 +11,7 @@ def join_nested_strings(src)
 
     
     while element_index < src[row_index].count do
-    if src[row_index][element_index] == 
+    if src[row_index][element_index].is_a? == String
       outer_results << src[row_index][element_index]  
      end 
   
