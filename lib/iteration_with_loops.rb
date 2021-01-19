@@ -19,5 +19,5 @@ def join_nested_strings(src)
    
   row_index += 1 
 end
-puts outer_results
+print outer_results
 end
